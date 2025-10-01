@@ -3,7 +3,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "opencnpj"
+name = "python-opencnpj"
 version = "0.1.4"
 authors = [
   {name = "Gustavo Gomes Nogueira da Silva", email = "gustavogonosi@gmail.com"}

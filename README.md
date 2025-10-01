@@ -17,7 +17,7 @@ Python library to fetch Brazilian CNPJ company data via [OpenCNPJ](https://openc
 ## 📦 Installation
 
 ```bash
-pip install opencnpj  
+pip install python-opencnpj  
 ```
 
 ## 🔧 Use cases
