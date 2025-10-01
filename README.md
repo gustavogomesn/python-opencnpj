@@ -67,3 +67,18 @@ print(read_cnpj)
 #### OUTPUT ####
 # - 12.345.678/0001-95
 ```
+
+## Working under a proxy server
+
+```python
+from opencnpj import OpenCnpj
+
+proxies = {
+    "http": "http://your_proxy_ip:port",
+    "https": "http://your_proxy_ip:port",
+}
+
+# Initialize client
+client = OpenCnpj(proxies=proxies)
+
+data = client.get("123456780001-95")
